@@ -60,5 +60,5 @@ names = available_names()
 
 ## Data sources
 
-- **Wikidata** — SPARQL queries for P2017 (isomeric SMILES) and P233 (canonical SMILES)
-- **PubChem** — CAS number and systematic name lookups for specialty phosphine ligands not in Wikidata
+- **Wikidata**: SPARQL queries for P2017 (isomeric SMILES) and P233 (canonical SMILES)
+- **PubChem**: CAS number and systematic name lookups for specialty phosphine ligands not in Wikidata
