@@ -7,8 +7,8 @@ including the full Buchwald monophosphine family, bisphosphines, NHC ligands, an
 ## Installation
 
 ```bash
-git clone https://github.com/yourname/ligand_lookup
-cd ligand_lookup
+git clone https://github.com/Pedro-DR-TH/Ligand2SMILES
+cd Ligand2SMILES
 ```
 
 No dependencies beyond the Python standard library. The lookup database (`wikidata_smiles.json`) is included — no setup or scraping required.
