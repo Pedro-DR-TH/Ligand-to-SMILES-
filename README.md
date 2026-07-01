@@ -1,4 +1,4 @@
-# ligand_lookup
+# Ligand2SMILES
 
 A lightweight Python module for looking up SMILES strings from compound and ligand names.
 Built from Wikidata (P2017/P233) and PubChem, with a curated list of phosphine ligands
