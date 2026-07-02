@@ -51,6 +51,20 @@ from Ligand2SMILES import available_names
 names = available_names()
 # ['1,10-phenanthroline', 'BINAP', 'BrettPhos', 'XPhos', ...]
 ```
+### Fuzzy search 
+
+```python 
+from Ligand2SMILES import fuzzy_search
+
+fuzzy_search("xphos")
+# [{'name': 'XPhos', 'smiles': '...', 'score': 1.0}]
+
+fuzzy_search("triphenylphospine")  # typo
+# [{'name': 'triphenylphosphine', 'smiles': '...', 'score': 0.97}]
+
+fuzzy_search("j-Pr")  # OCR error for i-Pr
+# returns closest phosphine matches
+```
 
 ## Coverage
 
