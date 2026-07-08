@@ -1,3 +1,6 @@
+
+<img width="6912" height="3456" alt="from Ligand2SMILES" src="https://github.com/user-attachments/assets/524d343c-77c6-4622-9899-81cc33d9b27e" />
+
 # Ligand2SMILES
 
 A lightweight Python module for looking up SMILES strings from compound and ligand names.
